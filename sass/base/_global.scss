@@ -1,0 +1,41 @@
+html,
+body{
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1190px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.title {
+    color: #242121;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: -1.65px;
+
+    &::after {
+        display: block;
+        content: '';
+        width: 60px;
+        height: 4px;
+        background-color: #FCBB08;
+       margin-top: 14px;
+    }
+}
